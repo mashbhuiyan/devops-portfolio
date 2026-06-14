@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-text font-sans;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-surface;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-border rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted;
+  }
+}
+
+@layer utilities {
+  .bg-dot-grid {
+    background-image: radial-gradient(circle, #1f2937 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  .text-gradient-cyan {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+
+  .glow-cyan {
+    box-shadow: 0 0 20px rgba(6, 182, 212, 0.15);
+  }
+
+  .glow-cyan-sm {
+    box-shadow: 0 0 10px rgba(6, 182, 212, 0.1);
+  }
+}

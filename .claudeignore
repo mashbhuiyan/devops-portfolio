@@ -1,0 +1,36 @@
+# .claudeignore — Files Claude Code should not read or modify
+
+# Dependencies
+node_modules/
+.next/
+out/
+
+# Environment & Secrets
+.env
+.env.local
+.env.production
+*.pem
+*.key
+
+# Infrastructure state (sensitive)
+infrastructure/.terraform/
+infrastructure/terraform.tfstate
+infrastructure/terraform.tfstate.backup
+infrastructure/*.tfvars
+
+# Build artifacts
+out/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+*.swp
