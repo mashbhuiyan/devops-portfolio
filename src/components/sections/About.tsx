@@ -36,14 +36,13 @@ export function About() {
             className="flex justify-center"
           >
             <div className="relative w-64 h-64 sm:w-72 sm:h-72">
-              <div className="absolute inset-0 border-2 border-primary rounded-sm translate-x-3 translate-y-3" />
               <div className="relative w-full h-full bg-surface border border-border rounded-sm overflow-hidden">
                 {personal.avatarPath ? (
                   <Image
                     src={personal.avatarPath}
                     alt={`${personal.name} profile photo`}
                     fill
-                    className="object-cover"
+                    className="object-cover object-top"
                   />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center bg-surface">

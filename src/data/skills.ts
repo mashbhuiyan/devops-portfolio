@@ -30,7 +30,7 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: "GitHub Actions", iconName: "logos:github-actions", level: "expert" },
       { name: "ArgoCD", iconName: "logos:argo-icon", level: "intermediate" },
-      { name: "GitLab CI", iconName: "logos:gitlab", level: "familiar" },
+      { name: "GitLab CI", iconName: "logos:gitlab-icon", level: "familiar" },
     ],
   },
   {
