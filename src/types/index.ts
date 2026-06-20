@@ -11,26 +11,19 @@ export interface PersonalInfo {
   avatarPath: string | null;
 }
 
-export type SkillLevel = "expert" | "advanced" | "intermediate" | "familiar";
-
-export interface Skill {
-  name: string;
-  iconName: string;
-  level: SkillLevel;
-}
-
-export interface SkillCategory {
-  name: string;
-  skills: Skill[];
-}
-
 export interface Project {
   id: string;
   title: string;
-  description: string;
+  subtitle: string;
+  problem: string;
+  solution: string[];
+  outcomes: string[];
+  metrics: { value: string; label: string }[];
   techStack: string[];
-  githubUrl: string | null;
-  liveUrl: string | null;
+  githubUrl?: string;
+  liveUrl?: string;
+  architectureDiagram?: string;
+  category: "kubernetes" | "cicd" | "infrastructure" | "monitoring" | "portfolio";
   featured: boolean;
 }
 
