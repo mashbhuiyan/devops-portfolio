@@ -242,7 +242,7 @@ export function Experience() {
             Career
           </p>
           <h2 className="font-mono text-3xl sm:text-4xl font-bold text-white">
-            Experience.
+            Experience
           </h2>
         </motion.div>
 

@@ -31,7 +31,7 @@ const availabilityConfig = {
 } as const;
 
 const BADGES = [
-  "AWS Certified Solutions Architect",
+  "AWS Certified Solutions Architect – Associate",
   "10+ Years Production Experience",
   "Available for Technical Interviews",
   "References Available on Request",
@@ -384,7 +384,7 @@ export function Contact() {
         {/* Header */}
         <div className="text-center mb-10">
           <h2 className="font-mono text-3xl sm:text-4xl font-bold text-white mb-3 leading-tight">
-            Let&apos;s Build Something Production-Grade.
+            Let&apos;s Build Something Production-Grade
           </h2>
           <p className="text-slate-400 text-sm sm:text-base max-w-xl mx-auto">
             Open to the right opportunities — full-time, contract, or consulting.

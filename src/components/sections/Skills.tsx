@@ -81,7 +81,7 @@ export function Skills() {
     <section id="skills" className="py-24 bg-surface">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
-          title="Skills."
+          title="Skills"
           subtitle="Production-grade expertise across the modern cloud and DevOps toolchain."
         />
 

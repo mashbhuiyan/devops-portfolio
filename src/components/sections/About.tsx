@@ -141,7 +141,7 @@ export function About() {
             transition={{ duration: 0.6, delay: 0.15 }}
           >
             <h2 className="font-mono text-3xl sm:text-4xl font-bold text-white mb-6">
-              About.
+              About
             </h2>
 
             <div className="space-y-4 text-sm sm:text-base text-slate-400 leading-relaxed mb-8">

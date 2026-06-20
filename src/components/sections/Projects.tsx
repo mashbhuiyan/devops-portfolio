@@ -178,7 +178,7 @@ export function Projects() {
     <section id="projects" ref={ref} className="py-24 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
-          title="Projects."
+          title="Projects"
           subtitle="Production-grade infrastructure and DevOps case studies with real metrics."
         />
 

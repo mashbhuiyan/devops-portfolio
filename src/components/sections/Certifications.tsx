@@ -138,7 +138,7 @@ export function Certifications() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
-          title="Certifications."
+          title="Certifications"
           subtitle="Validated expertise backed by industry-recognized credentials."
         />
 

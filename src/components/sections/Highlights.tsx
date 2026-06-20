@@ -120,7 +120,7 @@ export function Highlights() {
     <section id="highlights" ref={ref} className="py-24 bg-surface">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
-          title="Professional Highlights."
+          title="Professional Highlights"
           subtitle="10+ years designing, building, and operating production-grade cloud infrastructure."
         />
 

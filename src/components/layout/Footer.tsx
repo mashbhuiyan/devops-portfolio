@@ -85,12 +85,9 @@ export function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-slate-800 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div className="border-t border-slate-800 mt-10 pt-6 flex items-center justify-center">
           <p className="text-xs text-slate-500 font-mono">
             © {year} {personal.name}
-          </p>
-          <p className="text-xs text-slate-600 font-mono">
-            Built with Next.js · Deployed on AWS S3 + CloudFront
           </p>
         </div>
 

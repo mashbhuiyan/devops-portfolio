@@ -192,7 +192,7 @@ export function TechnicalImpact() {
     <section id="impact" ref={ref} className="py-24 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
-          title="Technical Impact."
+          title="Technical Impact"
           subtitle="Engineering outcomes measured in production — not estimated in staging."
         />
 

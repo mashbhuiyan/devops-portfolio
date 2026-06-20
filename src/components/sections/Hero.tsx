@@ -77,19 +77,6 @@ export function Hero() {
       <div className="relative z-10 flex-1 flex items-center">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
 
-          {/* Terminal prompt — hidden on mobile */}
-          <motion.p
-            initial="hidden"
-            animate="visible"
-            custom={0}
-            variants={fadeUp}
-            className="hidden sm:block font-mono text-xs text-muted mb-6"
-          >
-            <span className="text-primary">~/infra</span>
-            <span className="text-muted"> $ </span>
-            <span className="text-text">cat architect.md</span>
-          </motion.p>
-
           {/* H1 — clamp(2rem, 5vw, 3.5rem) per spec; inline style only for clamp() */}
           <motion.h1
             initial="hidden"
